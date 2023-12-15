@@ -11,9 +11,9 @@ import ProductInfo from "./pages/ProductInfo/ProductInfo";
 import Card from "./pages/Card/Card";
 
 const routes = [
-  { path: "/", element: <Index /> },
+  { path: "/onlineShopReactFirebase/", element: <Index /> },
   {
-    path: "/store",
+    path: "/onlineShopReactFirebase/store",
     element: (
       <>
         <Navbar />
@@ -23,7 +23,7 @@ const routes = [
     ),
   },
   {
-    path: "/blog",
+    path: "/onlineShopReactFirebase/blog",
     element: (
       <>
         <Navbar />
@@ -33,7 +33,7 @@ const routes = [
     ),
   },
   {
-    path: "/Ablout-Us",
+    path: "/onlineShopReactFirebase/Ablout-Us",
     element: (
       <>
         <AbloutUs />
@@ -42,7 +42,7 @@ const routes = [
     ),
   },
   {
-    path: "/Contact-Us",
+    path: "/onlineShopReactFirebase/Contact-Us",
     element: (
       <>
         <Navbar />
@@ -52,10 +52,13 @@ const routes = [
     ),
   },
 
-  { path: "/products/:productID", element: <ProductInfo /> },
-  { path: "/Card", element: <Card /> },
-  { path: "/login", element: <Login /> },
-  { path: "/register", element: <Register /> },
+  {
+    path: "/onlineShopReactFirebase/products/:productID",
+    element: <ProductInfo />,
+  },
+  { path: "/onlineShopReactFirebase/Card", element: <Card /> },
+  { path: "/onlineShopReactFirebase/login", element: <Login /> },
+  { path: "/onlineShopReactFirebase/register", element: <Register /> },
 ];
 
 export default routes;
