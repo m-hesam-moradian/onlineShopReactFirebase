@@ -1,0 +1,26 @@
+.btn-color {
+  border: none !important;
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+.btn-outline {
+  border: 2px solid var(--primary-color) !important;
+  background: var(--white-color) !important;
+  color: var(--primary-color) !important;
+}
+.btn-outline:hover {
+  border: none !important;
+  background: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+.backColor {
+  /* border: none !important;  */
+  background: var(--primary-color) !important;
+}
+.textColor {
+  color: var(--primary-color) !important;
+}
+
+.jic {
+  justify-items: center;
+}

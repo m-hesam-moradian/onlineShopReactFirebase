@@ -1,0 +1,42 @@
+.HeaderBottom .card img{
+    height: 4rem;
+    
+}
+.HeaderBottom .card a{
+border: 1px solid rgb(197, 197, 197);
+    
+}
+.HeaderBottom .CardContainer{
+/* max-width: 2rem; */
+    
+}
+.IntroHeaderBottom{
+    background-color: var(--primary-color);
+     background-image: url("https://halochin.ir/electronic-shop/wp-content/uploads/2023/08/main-banner-patern-pic-1-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 40px; */
+  
+
+}
+.IntroHeaderBottom img{
+    height: max-content;
+    width: 22rem;
+    /* margin-top: -40px; */
+
+}
+.IntroHeaderBottomlinearBG{
+           background: linear-gradient(273deg, #435ecaf0, #435ecaf0);
+}
+.IntroHeaderBottomBTN{
+        background: linear-gradient(90deg, transparent,#ffffffad);
+}
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
+/* .HeaderBottom .CardContainer */
