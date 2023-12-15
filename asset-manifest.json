@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/onlineShopReactFirebase/static/css/main.73d44ba8.css",
-    "main.js": "/onlineShopReactFirebase/static/js/main.035ea8e8.js",
-    "static/media/IRANSans.ttf": "/onlineShopReactFirebase/static/media/IRANSans.623768ac2bdc3c1f78df.ttf",
-    "index.html": "/onlineShopReactFirebase/index.html",
-    "main.73d44ba8.css.map": "/onlineShopReactFirebase/static/css/main.73d44ba8.css.map",
-    "main.035ea8e8.js.map": "/onlineShopReactFirebase/static/js/main.035ea8e8.js.map"
+    "main.css": "/m-hesam-moradian/onlineShopReactFirebase/static/css/main.4d85f643.css",
+    "main.js": "/m-hesam-moradian/onlineShopReactFirebase/static/js/main.025a4ced.js",
+    "static/media/IRANSans.ttf": "/m-hesam-moradian/onlineShopReactFirebase/static/media/IRANSans.623768ac2bdc3c1f78df.ttf",
+    "index.html": "/m-hesam-moradian/onlineShopReactFirebase/index.html",
+    "main.4d85f643.css.map": "/m-hesam-moradian/onlineShopReactFirebase/static/css/main.4d85f643.css.map",
+    "main.025a4ced.js.map": "/m-hesam-moradian/onlineShopReactFirebase/static/js/main.025a4ced.js.map"
   },
   "entrypoints": [
-    "static/css/main.73d44ba8.css",
-    "static/js/main.035ea8e8.js"
+    "static/css/main.4d85f643.css",
+    "static/js/main.025a4ced.js"
   ]
 }
