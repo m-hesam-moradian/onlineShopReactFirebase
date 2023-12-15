@@ -1,5 +1,5 @@
 {
-  "homepage": "https://m-hesam-moradian.github.io/onlineShopReactFirebase",
+  "homepage": "https://github.com/m-hesam-moradian/onlineShopReactFirebase",
   "name": "onlineShop-react-app",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "react-google-recaptcha": "^2.1.0",
     "react-icons": "^4.4.0",
     "react-numeric-input": "^2.2.3",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.9.0",
@@ -32,8 +32,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
