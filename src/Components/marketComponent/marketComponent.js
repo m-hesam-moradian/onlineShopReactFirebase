@@ -56,7 +56,9 @@ export default function MarketComponent() {
             {searchResult &&
               searchResult.map((event) => (
                 <a
-                  onClick={() => navigate(`/products/${event.id}`)}
+                  onClick={() =>
+                    navigate(`/onlineShopReactFirebase/products/${event.id}`)
+                  }
                   href=""
                   className=" searchListItem"
                 >

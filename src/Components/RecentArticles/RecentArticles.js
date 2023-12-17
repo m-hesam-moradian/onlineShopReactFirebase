@@ -110,7 +110,7 @@ export default function RecentArticles() {
           ArtickleArray && (
             <div
               // role="button"
-              onClick={() => navigate(`/blog`)}
+              onClick={() => navigate(`/onlineShopReactFirebase/blog`)}
               className="d-flex  gap-5 row"
             >
               <div className="col col-lg-3 d-grid gap-4 MiniArtickleCardsContainer ">

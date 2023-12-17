@@ -38,7 +38,7 @@ export default function Login() {
           icon: "success",
         }).then((result) => {
           if (result.isConfirmed) {
-            navigate(`/`);
+            navigate(`/onlineShopReactFirebase/`);
           }
         });
       } else {
@@ -102,7 +102,7 @@ export default function Login() {
               icon: "success",
             }).then((result) => {
               if (result.isConfirmed) {
-                navigate(`/`);
+                navigate(`/onlineShopReactFirebase/`);
               }
             });
           }
@@ -257,7 +257,7 @@ export default function Login() {
                 type="submit"
                 onClick={() => {
                   localStorage.clear();
-                  navigate(`/`);
+                  navigate(`/onlineShopReactFirebase/`);
                 }}
               >
                 خروج از اکانت

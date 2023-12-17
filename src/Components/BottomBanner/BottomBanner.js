@@ -7,7 +7,7 @@ export default function BottomBanner() {
   return (
     <div
       role="button"
-      onClick={() => navigate(`/store`)}
+      onClick={() => navigate(`/onlineShopReactFirebase/store`)}
       className="BottomBanner"
     >
       <div className="BottomBannerContainer rounded-5 ">

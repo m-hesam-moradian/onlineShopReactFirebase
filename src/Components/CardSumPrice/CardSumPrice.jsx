@@ -51,7 +51,7 @@ export default function CardSumPrice({ className, sums }) {
               icon: "warning",
             }).then((result) => {
               if (result.isConfirmed) {
-                navigate(`/`);
+                navigate(`/onlineShopReactFirebase/`);
               }
             });
 

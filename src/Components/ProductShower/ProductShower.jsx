@@ -29,7 +29,7 @@ const navigate = useNavigate();
           <hr className="col m-1 text-secondary   " />
           <span
             role="button"
-            onClick={() => navigate(`/store`)}
+            onClick={() => navigate(`/onlineShopReactFirebase/store`)}
             className="ChoosenProductsShowMore d-flex  align-items-center text-secondary    "
           >
             مشاهده همه

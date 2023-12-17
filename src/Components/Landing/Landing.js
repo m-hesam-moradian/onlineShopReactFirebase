@@ -43,10 +43,10 @@ export default function Landing({ info }) {
       </Carousel>
     );
   }
-  function OffCarousel({ id,img, name, price, priceBeforeOff }) {
+  function OffCarousel({ id, img, name, price, priceBeforeOff }) {
     return (
       <Card
-      onClick={() => navigate(`/products/${id}`)}
+        onClick={() => navigate(`/onlineShopReactFirebase/products/${id}`)}
         className="w-100 d-flex align-items-center rounded-5  "
         style={{ width: "18rem" }}
       >
@@ -92,7 +92,7 @@ export default function Landing({ info }) {
               {" "}
               <img
                 role="button"
-                onClick={() => navigate(`/store`)}
+                onClick={() => navigate(`/onlineShopReactFirebase/store`)}
                 className="w-100 h-100 rounded-5 "
                 src="https://halochin.ir/electronic-shop/wp-content/uploads/2023/08/Slider-3.jpg"
                 alt=""

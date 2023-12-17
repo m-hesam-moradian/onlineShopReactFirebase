@@ -44,7 +44,9 @@ export default function CountdownTimer() {
     return (
       <Card
         role="button"
-        onClick={() => navigate(`/products/${dataArray.id}`)}
+        onClick={() =>
+          navigate(`/onlineShopReactFirebase/products/${dataArray.id}`)
+        }
         className="ProductCard  col  d-flex align-items-center rounded-5  border-0 m-5 shadow col "
         style={{ width: "18rem" }}
       >

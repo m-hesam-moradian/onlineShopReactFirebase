@@ -9,7 +9,7 @@ export default function MiddleBanner() {
     <div className="MiddleBanner">
       <div
         role="button"
-        onClick={() => navigate(`/store`)}
+        onClick={() => navigate(`/onlineShopReactFirebase/store`)}
         className="MiddleBannerContainr row h-100"
       >
         <div className="col  BigCursor  d-md-flex px-5 rounded-5 m-4 align-items-center py-5">

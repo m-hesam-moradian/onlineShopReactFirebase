@@ -27,7 +27,7 @@ export const SignIn = () => {
       localStorage.setItem("token", email + "/" + password);
       //  tokenLocalhost = localStorage.getItem("token");
       // console.log(localStorage.getItem("token"));
-      navigate(`/`);
+      navigate(`/onlineShopReactFirebase/`);
 
 
     } catch (err) {

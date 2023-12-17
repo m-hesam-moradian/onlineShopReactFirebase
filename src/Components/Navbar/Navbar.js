@@ -91,7 +91,11 @@ export default function Navbar() {
                 {searchResult &&
                   searchResult.map((event) => (
                     <a
-                      onClick={() => navigate(`/products/${event.id}`)}
+                      onClick={() =>
+                        navigate(
+                          `/onlineShopReactFirebase/products/${event.id}`
+                        )
+                      }
                       href=""
                       className=" searchListItem"
                     >
@@ -104,30 +108,30 @@ export default function Navbar() {
 
             <ul class="navbar-nav justify-content-end flex-grow-1 p-4 text-secondary ">
               <li class="nav-item p-2 active">
-                <Link class="nav-link" to="/">
+                <Link class="nav-link" to="/onlineShopReactFirebase/">
                   <span class="material-symbols-outlined ">home</span> صفحه اصلی
                 </Link>
               </li>
               <li class="nav-item p-2">
-                <Link class="nav-link" to="/store">
+                <Link class="nav-link" to="/onlineShopReactFirebase/store">
                   <span class="material-symbols-outlined">storefront</span>
                   فروشگاه
                 </Link>
               </li>
               <li class="nav-item p-2">
-                <Link class="nav-link" to="/blog">
+                <Link class="nav-link" to="/onlineShopReactFirebase/blog">
                   <span class="material-symbols-outlined">receipt_long</span>
                   وبلاگ
                 </Link>
               </li>
               <li class="nav-item p-2">
-                <Link class="nav-link" to="/Ablout-Us">
+                <Link class="nav-link" to="/onlineShopReactFirebase/Ablout-Us">
                   <span class="material-symbols-outlined">receipt_long</span>
                   درباره ما
                 </Link>
               </li>
               <li class="nav-item p-2">
-                <Link class="nav-link" to="/Contact-Us">
+                <Link class="nav-link" to="/onlineShopReactFirebase/Contact-Us">
                   <span class="material-symbols-outlined">receipt_long</span>
                   تماس با ما
                 </Link>
@@ -157,7 +161,7 @@ export default function Navbar() {
             </a>
             <img
               role="button"
-              onClick={() => navigate(`/`)}
+              onClick={() => navigate(`/onlineShopReactFirebase/`)}
               src="https://halochin.ir/electronic-shop/wp-content/uploads/2023/08/logomain.png"
               className="main-header__logo w-75 m-2 m-sm-4"
               alt="لوگوی سبزلرن"
@@ -195,7 +199,9 @@ export default function Navbar() {
               {searchResult &&
                 searchResult.map((event) => (
                   <a
-                    onClick={() => navigate(`/products/${event.id}`)}
+                    onClick={() =>
+                      navigate(`/onlineShopReactFirebase/products/${event.id}`)
+                    }
                     href=""
                     className=" searchListItem"
                   >
@@ -208,13 +214,13 @@ export default function Navbar() {
 
           <div className="main-header__left">
             <Link
-              to="/Contact-Us"
+              to="/onlineShopReactFirebase/Contact-Us"
               className="main-header__cart-btn contactBTN d-none d-sm-flex"
             >
               <span class="material-symbols-outlined">contacts</span>
             </Link>
             <Link
-              to="/Card"
+              to="/onlineShopReactFirebase/Card"
               className="cartBTN shake-button main-header__cart-btn contactBTN mobileNavCart d-flex d-md-none"
             >
               <span className="productCounter">{count}</span>
@@ -229,7 +235,7 @@ export default function Navbar() {
               </Link>
             ) : (
               <Link
-                to="/login"
+                to="/onlineShopReactFirebase/login"
                 className="main-header__profile mainProfile p-2 p-sm-4"
               >
                 <span className="main-header__profile-text  d-none d-sm-flex ">
@@ -246,7 +252,11 @@ export default function Navbar() {
           </div>
         </div>
         <Link
-          to={localStorage.getItem("UserName") ? "/Card" : `/login`}
+          to={
+            localStorage.getItem("UserName")
+              ? "/onlineShopReactFirebase/Card"
+              : `/onlineShopReactFirebase/login`
+          }
           className={`cartBTN ${
             localStorage.getItem("UserName") ? "cartBTNActive " : "shake-button"
           } d-none d-md-flex`}
@@ -276,7 +286,7 @@ export default function Navbar() {
             </div>
             <div
               role="button"
-              onClick={() => navigate(`/store`)}
+              onClick={() => navigate(`/onlineShopReactFirebase/store`)}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
               className={`categoryItems ${!isHovered && "d-none"} `}
@@ -295,29 +305,29 @@ export default function Navbar() {
             </div>
           </ul>
           <li>
-            <Link class="nav-link" to="/">
+            <Link class="nav-link" to="/onlineShopReactFirebase/">
               <span class="material-symbols-outlined ">home</span> صفحه اصلی
             </Link>
           </li>
           <li>
-            <Link class="nav-link" to="/store">
+            <Link class="nav-link" to="/onlineShopReactFirebase/store">
               <span class="material-symbols-outlined">storefront</span> فروشگاه
             </Link>
           </li>
           <li>
-            <Link class="nav-link" to="/blog">
+            <Link class="nav-link" to="/onlineShopReactFirebase/blog">
               <span class="material-symbols-outlined">receipt_long</span> وبلاگ
             </Link>
             <a href=""></a>
           </li>
           <li>
-            <Link class="nav-link" to="/Ablout-Us">
+            <Link class="nav-link" to="/onlineShopReactFirebase/Ablout-Us">
               <span class="material-symbols-outlined">receipt_long</span> درباره
               ما
             </Link>
           </li>
           <li>
-            <Link class="nav-link" to="/Contact-Us">
+            <Link class="nav-link" to="/onlineShopReactFirebase/Contact-Us">
               <span class="material-symbols-outlined">receipt_long</span> تماس
               با ما
             </Link>

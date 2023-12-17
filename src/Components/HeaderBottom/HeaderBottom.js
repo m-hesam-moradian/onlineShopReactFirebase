@@ -9,7 +9,7 @@ const navigate = useNavigate();
     <div
       className="CardContainer col "
       role="button"
-      onClick={() => navigate(`/store`)}
+      onClick={() => navigate(`/onlineShopReactFirebase/store`)}
     >
       <div class="card d-grid justify-content-center   text-secondary p-4 border-0 rounded-5 shadow h-100">
         <img src={CardImg} class="card-img-top" alt="..." />
@@ -51,7 +51,7 @@ const navigate = useNavigate();
       <div
         className="IntroHeaderBottomContainer col-xl-auto "
         role="button"
-        onClick={() => navigate(`/store`)}
+        onClick={() => navigate(`/onlineShopReactFirebase/store`)}
       >
         <div className="IntroHeaderBottom  rounded-5 mx-3">
           <div dir="ltr" className=" IntroHeaderBottomlinearBG row rounded-5  ">

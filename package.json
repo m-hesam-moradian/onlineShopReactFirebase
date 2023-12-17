@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/m-hesam-moradian/onlineShopReactFirebase",
+  "homepage": "https://m-hesam-moradian.github.io/onlineShopReactFirebase/",
   "name": "onlineShop-react-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^35.2.1",
     "@ckeditor/ckeditor5-react": "^5.0.2",
