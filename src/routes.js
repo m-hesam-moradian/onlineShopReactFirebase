@@ -6,7 +6,7 @@ import Blog from "./pages/Blog/Blog";
 import AbloutUs from "./pages/AbloutUs/AbloutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
+// import Register from "./pages/Register/Register";
 import ProductInfo from "./pages/ProductInfo/ProductInfo";
 import Card from "./pages/Card/Card";
 
@@ -58,7 +58,7 @@ const routes = [
   },
   { path: "onlineShopReactFirebase/Card", element: <Card /> },
   { path: "onlineShopReactFirebase/login", element: <Login /> },
-  { path: "onlineShopReactFirebase/register", element: <Register /> },
+  // { path: "onlineShopReactFirebase/register", element: <Register /> },
 ];
 
 export default routes;
